@@ -3,7 +3,15 @@ git init
 
 2. Mandatory while add anything:
 git add .
-git commit -m "first commit"
-git branch -M main
+git commit -m "commit message"
+
+3. git branch -M main -> using main branch as primary branch
+
+4. Adding the remote repository:
 git remote add origin https://github.com/minhajurRahman02/My-first-website.git
+
+5. Show the remote repository:
+git remote -v
+
+6. Pusing the local repository to the remote repository:
 git push -u origin main
