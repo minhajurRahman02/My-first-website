@@ -1,0 +1,9 @@
+1. Mandatory for each project:
+git init
+
+2. Mandatory while add anything:
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/minhajurRahman02/My-first-website.git
+git push -u origin main
